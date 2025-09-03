@@ -1,0 +1,82 @@
+body{
+  margin: 0px;
+}
+.coffee-header{
+  position:fixed;
+  height: 100px;
+  width: 100%;
+  background-color:darkblue;
+  left: 0px;
+  right: 0px;
+  z-index: 100;
+}
+.coffee-logo{
+  position: relative;
+  left: 10px;
+  top: 10px;
+color: white;
+}
+
+.nav-service{
+  float: right;
+  height: 100%;
+}
+.nav-service a {
+  font-size: 30px;
+  position: relative;
+  bottom: 30px;
+  right: 50px;
+  color: white;
+  padding-right: 20px;
+}
+.site-content{
+  position: absolute;
+  top: 78px;
+  width: 100%;
+}
+.background-img
+{
+  background-image:url("background-image.jpg");
+  height: 500px;
+  width: 100%;
+}
+.quote{
+  text-align: center;
+  color: white;
+  position: relative;
+  top: 50px;
+}
+.card-list{
+  width: 100%;
+}
+
+.card{
+  width: 22%;
+  padding right:20px% ;
+  height:300px;
+  float: left;
+  text-align: center;
+  margin: 20px;
+
+}
+.card img{
+  width: 100%;
+
+}
+.order-section{
+  width: 100%;
+  position: relative;
+  top: 20px;
+}
+#order{
+  text-align: center;
+}
+.order-form{
+  width: 200px;
+  margin: 0 auto;
+
+}
+.form-input{
+  padding: 10px;
+  margin: 10px;
+}
